@@ -1,15 +1,4 @@
 # Fitness_Trainer
-
-Yesss, nice—this is exactly the right time to write a clean README 👍
-I’ll give you a **professional, GitHub-ready README** that you can directly paste into the repo and tweak names later.
-
-I’ll assume:
-
-* Your friend → **Frontend**
-* You → **Backend**
-* Project is still in development
-
-
 ## 🏋️‍♂️ AI Fitness Trainer – Full Stack Web Application
 
 An intelligent full-stack fitness trainer web application that provides **personalized workout recommendations**, **real-time exercise monitoring**, and **pose correction** using computer vision and 3D visualization.
@@ -76,14 +65,20 @@ Database (MongoDB)
         v
 AI Pose Detection (MediaPipe / TensorFlow.js)
 ```
+## Team members
+| Team Member | Role & Responsibilities                                                                                                                                                                                                                                                                                                                                                         |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Shweta**  | **Frontend Developer (React)**<br>• UI/UX design and frontend implementation using React<br>• Webcam integration for real-time exercise monitoring<br>• Pose detection logic integration (MediaPipe / TensorFlow.js)<br>• Exercise posture analysis and feedback rules<br>• Integration of AI logic with user interface<br>• 3D model visualization for exercise demonstrations |
+| **Trupti**  | **Backend Developer**<br>• RESTful API development using Node.js and Express<br>• User authentication and authorization (JWT)<br>• Database design and management using MongoDB<br>• Workout and exercise recommendation logic<br>• User progress tracking and data handling                                                                                                    |
+
 
 ## 📦 Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo-name/ai-fitness-trainer.git
-cd ai-fitness-trainer
+[git clone https://github.com/your-repo-name/ai-fitness-trainer.git
+cd ai-fitness-trainer](https://github.com/ShwetaD794/Fitness_Trainer.git)
 ```
 
 ### 2️⃣ Backend Setup
@@ -97,7 +92,7 @@ npm start
 Create a `.env` file:
 
 ```
-PORT=5000
+PORT=8800
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
