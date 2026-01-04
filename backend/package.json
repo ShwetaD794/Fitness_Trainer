@@ -1,0 +1,27 @@
+{
+  "name": "fitness_trainer",
+  "version": "1.0.0",
+  "description": "Fitness trainer",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShwetaD794/Fitness_Trainer.git"
+  },
+  "author": "Trupti Balbudhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShwetaD794/Fitness_Trainer/issues"
+  },
+  "homepage": "https://github.com/ShwetaD794/Fitness_Trainer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
